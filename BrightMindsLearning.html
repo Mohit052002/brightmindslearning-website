@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BrightMinds Learning</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #f7c600;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 100px; /* Increased from 60px to 100px */
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #fff;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      color: #f7c600;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      padding: 80px 20px 60px;
+      text-align: center;
+      background: linear-gradient(to right, #fce97b, #f7c600);
+      color: #333;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .hero p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #fff;
+      color: #f7c600;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #f7c600;
+    }
+    .subjects, .reasons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f7c600;
+      color: white;
+      margin-top: 40px;
+    }
+    .contact-btns {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .contact-btns a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #25d366;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .contact-btns a.call {
+      background: #f7c600;
+      color: white;
+    }
+    .contact-details {
+      text-align: center;
+      margin-top: 20px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="C:\Users\91724\OneDrive\Desktop\BrightMindsLearning.com\Images\brightminds.jpg" alt="BrightMinds Logo" />
+    <h1>BrightMinds Learning</h1>
+    <p>Empowering Students from Class 5 to 12 — Learn Anytime, Anywhere</p>
+  </header>
+
+  <nav>
+    <a href="#subjects">Subjects</a>
+    <a href="#why">Why Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Join BrightMinds Today</h1>
+    <p>Live Online Classes and Doubt Solving Services for Math, English & Aptitude – No Registration Required</p>
+    <a href="#contact" class="button">Contact via WhatsApp</a>
+  </section>
+
+  <section id="subjects" class="section">
+    <h2>Subjects We Offer</h2>
+    <div class="subjects">
+      <div class="card">
+        <h3>Mathematics</h3>
+        <p>From basics to advanced concepts — for all grades 5 to 12.</p>
+      </div>
+      <div class="card">
+        <h3>English</h3>
+        <p>Grammar, writing skills, reading comprehension, and more.</p>
+      </div>
+      <div class="card">
+        <h3>Mental Ability</h3>
+        <p>Aptitude training to boost problem-solving & logic.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" class="section">
+    <h2>Why Choose BrightMinds?</h2>
+    <div class="reasons">
+      <div class="card">
+        <h4>Expert Tutors</h4>
+        <p>Learn from experienced faculty including alumni from IITs and NITs — the top institutions in India.</p>
+      </div>
+      <div class="card">
+        <h4>Flexible Timing</h4>
+        <p>Attend live classes at your convenience – no rigid schedules.</p>
+      </div>
+      <div class="card">
+        <h4>Affordable Learning</h4>
+        <p>Top quality education at prices every student can afford.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Want to join or ask questions? Just call or WhatsApp us. No need to fill long forms.</p>
+    <div class="contact-btns">
+      <a href="https://wa.me/919067621205" target="_blank">WhatsApp Now</a>
+      <a href="tel:+919067621205" class="call">Call Us</a>
+    </div>
+    <div class="contact-details">
+      <p><strong>Phone/WhatsApp:</strong> +91 90676 21205</p>
+      <p><strong>Email:</strong> brightmindslearning26@gmail.com</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 BrightMinds Learning | All rights reserved.
+  </footer>
+
+</body>
+</html>
